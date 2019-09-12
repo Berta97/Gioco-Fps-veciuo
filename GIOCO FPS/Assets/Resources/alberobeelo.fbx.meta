@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 3e8f705951653ac46a7475fa7cb4864e
+timeCreated: 1564766376
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cielo
+    100004: Cielo_Nullo
+    100006: CINEMA_4D_Editor
+    100008: Cubo
+    100010: Cubo_10
+    100012: Cubo_11
+    100014: Cubo_12
+    100016: Cubo_13
+    100018: Cubo_14
+    100020: Cubo_15
+    100022: Cubo_16
+    100024: Cubo_2
+    100026: Cubo_3
+    100028: Cubo_4
+    100030: Cubo_5
+    100032: Cubo_6
+    100034: Cubo_7
+    100036: Cubo_8
+    100038: Cubo_9
+    100040: Forester_Tree
+    100042: Forester_Tree_MeshPart0
+    100044: Forester_Tree_MeshPart1
+    100046: Forester_Tree_MeshPart2
+    100048: Luce_Luna
+    100050: Luce_sole
+    100052: Luna
+    100054: Pavimento
+    100056: Piano_Ombre
+    100058: Sky_Dome
+    100060: Sole
+    100062: Sorgente_Chiarore_Lente
+    100064: Willow_tree
+    400000: //RootNode
+    400002: Cielo
+    400004: Cielo_Nullo
+    400006: CINEMA_4D_Editor
+    400008: Cubo
+    400010: Cubo_10
+    400012: Cubo_11
+    400014: Cubo_12
+    400016: Cubo_13
+    400018: Cubo_14
+    400020: Cubo_15
+    400022: Cubo_16
+    400024: Cubo_2
+    400026: Cubo_3
+    400028: Cubo_4
+    400030: Cubo_5
+    400032: Cubo_6
+    400034: Cubo_7
+    400036: Cubo_8
+    400038: Cubo_9
+    400040: Forester_Tree
+    400042: Forester_Tree_MeshPart0
+    400044: Forester_Tree_MeshPart1
+    400046: Forester_Tree_MeshPart2
+    400048: Luce_Luna
+    400050: Luce_sole
+    400052: Luna
+    400054: Pavimento
+    400056: Piano_Ombre
+    400058: Sky_Dome
+    400060: Sole
+    400062: Sorgente_Chiarore_Lente
+    400064: Willow_tree
+    2300000: Cubo
+    2300002: Cubo_10
+    2300004: Cubo_11
+    2300006: Cubo_12
+    2300008: Cubo_13
+    2300010: Cubo_14
+    2300012: Cubo_15
+    2300014: Cubo_16
+    2300016: Cubo_2
+    2300018: Cubo_3
+    2300020: Cubo_4
+    2300022: Cubo_5
+    2300024: Cubo_6
+    2300026: Cubo_7
+    2300028: Cubo_8
+    2300030: Cubo_9
+    2300032: Forester_Tree_MeshPart0
+    2300034: Forester_Tree_MeshPart1
+    2300036: Forester_Tree_MeshPart2
+    3300000: Cubo
+    3300002: Cubo_10
+    3300004: Cubo_11
+    3300006: Cubo_12
+    3300008: Cubo_13
+    3300010: Cubo_14
+    3300012: Cubo_15
+    3300014: Cubo_16
+    3300016: Cubo_2
+    3300018: Cubo_3
+    3300020: Cubo_4
+    3300022: Cubo_5
+    3300024: Cubo_6
+    3300026: Cubo_7
+    3300028: Cubo_8
+    3300030: Cubo_9
+    3300032: Forester_Tree_MeshPart0
+    3300034: Forester_Tree_MeshPart1
+    3300036: Forester_Tree_MeshPart2
+    4300000: Cubo
+    4300002: Forester_Tree_MeshPart0
+    4300004: Forester_Tree_MeshPart1
+    4300006: Forester_Tree_MeshPart2
+    4300008: Cubo_2
+    4300010: Cubo_3
+    4300012: Cubo_4
+    4300014: Cubo_5
+    4300016: Cubo_6
+    4300018: Cubo_7
+    4300020: Cubo_8
+    4300022: Cubo_9
+    4300024: Cubo_10
+    4300026: Cubo_11
+    4300028: Cubo_12
+    4300030: Cubo_13
+    4300032: Cubo_14
+    4300034: Cubo_15
+    4300036: Cubo_16
+    6400000: Cubo
+    6400002: Cubo_10
+    6400004: Cubo_11
+    6400006: Cubo_12
+    6400008: Cubo_13
+    6400010: Cubo_14
+    6400012: Cubo_15
+    6400014: Cubo_16
+    6400016: Cubo_2
+    6400018: Cubo_3
+    6400020: Cubo_4
+    6400022: Cubo_5
+    6400024: Cubo_6
+    6400026: Cubo_7
+    6400028: Cubo_8
+    6400030: Cubo_9
+    6400032: Forester_Tree_MeshPart0
+    6400034: Forester_Tree_MeshPart1
+    6400036: Forester_Tree_MeshPart2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

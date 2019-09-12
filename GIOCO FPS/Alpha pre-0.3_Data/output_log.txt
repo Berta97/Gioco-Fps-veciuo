@@ -1,0 +1,1046 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7600M Series (ID=0x6840)
+    Vendor:   ATI
+    VRAM:     1004 MB
+    Driver:   15.201.1151.1008
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.229615 ms
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7600M Series (ID=0x6840)
+    Vendor:   ATI
+    VRAM:     1004 MB
+    Driver:   15.201.1151.1008
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Davide\Desktop\UNITY\Gioco unity\GIOCO FPS\Alpha pre-0.3_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1a28 -> priority: 1 
+<RI> Initialized touch support.
+UnloadTime: 1.346063 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 15e8 -> priority: 1 
+Operation failed: OperationResponse 225: ReturnCode: 32760 (No match found). Parameters: {}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)1016 on BatPickup(Clone) 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)1016 on BatPickup(Clone) 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "òl/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDamage.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)1020 on DonutsLauncherPickup(Clone) 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDamage.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)1022 on DonutsLauncherPickup(Clone) 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+QueueIncomingReliableWarning. This client buffers many incoming messages. This is OK temporarily. With lots of these warnings, check if you send too much or execute messages too slow. 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)1026 on BatPickup(Clone) 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.1", Mesh asset path "" Mesh name "Cubo.1"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.7", Mesh asset path "" Mesh name "Cubo.7"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.2", Mesh asset path "" Mesh name "Cubo.2"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.3", Mesh asset path "" Mesh name "Cubo.3"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.6", Mesh asset path "" Mesh name "Cubo.6"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.5", Mesh asset path "" Mesh name "Cubo.5"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "gg/Cubo.4", Mesh asset path "" Mesh name "Cubo.4"
+ 
+(Filename:  Line: 0)
+
+Failed to 'network-remove' GameObject. Client is neither owner nor masterClient taking over for owner who left: View (0)1027 on BatPickup(Clone) 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDamage.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.GameObject.GetComponent[KillTextBehaviour] () [0x00000] in <filename unknown>:0 
+  at PlayerDamage.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDamage.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.GameObject.GetComponent[KillTextBehaviour] () [0x00000] in <filename unknown>:0 
+  at PlayerDamage.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

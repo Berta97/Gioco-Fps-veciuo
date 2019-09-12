@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: f612754baf4d558459d96618431aa425
+timeCreated: 1566752105
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CINEMA_4D_Editor
+    100004: Cubo_fracturepart1
+    100006: Cubo_fracturepart10
+    100008: Cubo_fracturepart11
+    100010: Cubo_fracturepart12
+    100012: Cubo_fracturepart13
+    100014: Cubo_fracturepart14
+    100016: Cubo_fracturepart15
+    100018: Cubo_fracturepart16
+    100020: Cubo_fracturepart17
+    100022: Cubo_fracturepart18
+    100024: Cubo_fracturepart19
+    100026: Cubo_fracturepart2
+    100028: Cubo_fracturepart20
+    100030: Cubo_fracturepart3
+    100032: Cubo_fracturepart4
+    100034: Cubo_fracturepart5
+    100036: Cubo_fracturepart6
+    100038: Cubo_fracturepart7
+    100040: Cubo_fracturepart8
+    100042: Cubo_fracturepart9
+    100044: Frattura_Voronoi
+    100046: Pavimento
+    400000: //RootNode
+    400002: CINEMA_4D_Editor
+    400004: Cubo_fracturepart1
+    400006: Cubo_fracturepart10
+    400008: Cubo_fracturepart11
+    400010: Cubo_fracturepart12
+    400012: Cubo_fracturepart13
+    400014: Cubo_fracturepart14
+    400016: Cubo_fracturepart15
+    400018: Cubo_fracturepart16
+    400020: Cubo_fracturepart17
+    400022: Cubo_fracturepart18
+    400024: Cubo_fracturepart19
+    400026: Cubo_fracturepart2
+    400028: Cubo_fracturepart20
+    400030: Cubo_fracturepart3
+    400032: Cubo_fracturepart4
+    400034: Cubo_fracturepart5
+    400036: Cubo_fracturepart6
+    400038: Cubo_fracturepart7
+    400040: Cubo_fracturepart8
+    400042: Cubo_fracturepart9
+    400044: Frattura_Voronoi
+    400046: Pavimento
+    2300000: Cubo_fracturepart1
+    2300002: Cubo_fracturepart10
+    2300004: Cubo_fracturepart11
+    2300006: Cubo_fracturepart12
+    2300008: Cubo_fracturepart13
+    2300010: Cubo_fracturepart14
+    2300012: Cubo_fracturepart15
+    2300014: Cubo_fracturepart16
+    2300016: Cubo_fracturepart17
+    2300018: Cubo_fracturepart18
+    2300020: Cubo_fracturepart19
+    2300022: Cubo_fracturepart2
+    2300024: Cubo_fracturepart20
+    2300026: Cubo_fracturepart3
+    2300028: Cubo_fracturepart4
+    2300030: Cubo_fracturepart5
+    2300032: Cubo_fracturepart6
+    2300034: Cubo_fracturepart7
+    2300036: Cubo_fracturepart8
+    2300038: Cubo_fracturepart9
+    3300000: Cubo_fracturepart1
+    3300002: Cubo_fracturepart10
+    3300004: Cubo_fracturepart11
+    3300006: Cubo_fracturepart12
+    3300008: Cubo_fracturepart13
+    3300010: Cubo_fracturepart14
+    3300012: Cubo_fracturepart15
+    3300014: Cubo_fracturepart16
+    3300016: Cubo_fracturepart17
+    3300018: Cubo_fracturepart18
+    3300020: Cubo_fracturepart19
+    3300022: Cubo_fracturepart2
+    3300024: Cubo_fracturepart20
+    3300026: Cubo_fracturepart3
+    3300028: Cubo_fracturepart4
+    3300030: Cubo_fracturepart5
+    3300032: Cubo_fracturepart6
+    3300034: Cubo_fracturepart7
+    3300036: Cubo_fracturepart8
+    3300038: Cubo_fracturepart9
+    4300000: Cubo_fracturepart1
+    4300002: Cubo_fracturepart2
+    4300004: Cubo_fracturepart3
+    4300006: Cubo_fracturepart4
+    4300008: Cubo_fracturepart5
+    4300010: Cubo_fracturepart6
+    4300012: Cubo_fracturepart7
+    4300014: Cubo_fracturepart8
+    4300016: Cubo_fracturepart9
+    4300018: Cubo_fracturepart10
+    4300020: Cubo_fracturepart11
+    4300022: Cubo_fracturepart12
+    4300024: Cubo_fracturepart13
+    4300026: Cubo_fracturepart14
+    4300028: Cubo_fracturepart15
+    4300030: Cubo_fracturepart16
+    4300032: Cubo_fracturepart17
+    4300034: Cubo_fracturepart18
+    4300036: Cubo_fracturepart19
+    4300038: Cubo_fracturepart20
+    6400000: Cubo_fracturepart1
+    6400002: Cubo_fracturepart10
+    6400004: Cubo_fracturepart11
+    6400006: Cubo_fracturepart12
+    6400008: Cubo_fracturepart13
+    6400010: Cubo_fracturepart14
+    6400012: Cubo_fracturepart15
+    6400014: Cubo_fracturepart16
+    6400016: Cubo_fracturepart17
+    6400018: Cubo_fracturepart18
+    6400020: Cubo_fracturepart19
+    6400022: Cubo_fracturepart2
+    6400024: Cubo_fracturepart20
+    6400026: Cubo_fracturepart3
+    6400028: Cubo_fracturepart4
+    6400030: Cubo_fracturepart5
+    6400032: Cubo_fracturepart6
+    6400034: Cubo_fracturepart7
+    6400036: Cubo_fracturepart8
+    6400038: Cubo_fracturepart9
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 2a9bacfa2ace3bc40836f19006897d58
+timeCreated: 1563197291
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Booleana
+    100002: //RootNode
+    100004: Cilindro
+    100006: Cilindro_1
+    100008: CINEMA_4D_Editor
+    100010: Cubo
+    100012: Cubo_1
+    100014: Cubo_2
+    100016: Cubo_3
+    100018: Cubo_4
+    100020: Cubo_6
+    100022: Toroide
+    100024: Toroide_1
+    100026: Toroide_2
+    100028: Toroide_3
+    100030: Toroide_4
+    100032: Toroide_5
+    100034: Toroide_6
+    100036: Toroide_7
+    100038: Toroide_8
+    100040: Toroide_9
+    400000: Booleana
+    400002: //RootNode
+    400004: Cilindro
+    400006: Cilindro_1
+    400008: CINEMA_4D_Editor
+    400010: Cubo
+    400012: Cubo_1
+    400014: Cubo_2
+    400016: Cubo_3
+    400018: Cubo_4
+    400020: Cubo_6
+    400022: Toroide
+    400024: Toroide_1
+    400026: Toroide_2
+    400028: Toroide_3
+    400030: Toroide_4
+    400032: Toroide_5
+    400034: Toroide_6
+    400036: Toroide_7
+    400038: Toroide_8
+    400040: Toroide_9
+    2300000: Cilindro
+    2300002: Cilindro_1
+    2300004: Cubo
+    2300006: Cubo_1
+    2300008: Cubo_2
+    2300010: Cubo_3
+    2300012: Cubo_4
+    2300014: Cubo_6
+    2300016: Toroide
+    2300018: Toroide_1
+    2300020: Toroide_2
+    2300022: Toroide_3
+    2300024: Toroide_4
+    2300026: Toroide_5
+    2300028: Toroide_6
+    2300030: Toroide_7
+    2300032: Toroide_8
+    2300034: Toroide_9
+    3300000: Cilindro
+    3300002: Cilindro_1
+    3300004: Cubo
+    3300006: Cubo_1
+    3300008: Cubo_2
+    3300010: Cubo_3
+    3300012: Cubo_4
+    3300014: Cubo_6
+    3300016: Toroide
+    3300018: Toroide_1
+    3300020: Toroide_2
+    3300022: Toroide_3
+    3300024: Toroide_4
+    3300026: Toroide_5
+    3300028: Toroide_6
+    3300030: Toroide_7
+    3300032: Toroide_8
+    3300034: Toroide_9
+    4300000: Toroide_9
+    4300002: Toroide_8
+    4300004: Toroide_7
+    4300006: Toroide_6
+    4300008: Toroide_5
+    4300010: Toroide_4
+    4300012: Toroide_3
+    4300014: Toroide_2
+    4300016: Toroide_1
+    4300018: Toroide
+    4300020: Cilindro
+    4300022: Cilindro_1
+    4300024: Cubo_3
+    4300026: Cubo_6
+    4300028: Cubo_4
+    4300030: Cubo_2
+    4300032: Cubo_1
+    4300034: Cubo
+    7400000: Cecchino
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cecchino
+      takeName: CINEMA_4D_Principale
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Booleana
+        weight: 1
+      - path: Booleana/Cilindro
+        weight: 1
+      - path: Booleana/Cilindro_1
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: Cubo
+        weight: 1
+      - path: Cubo_1
+        weight: 1
+      - path: Cubo_2
+        weight: 1
+      - path: Cubo_3
+        weight: 1
+      - path: Cubo_4
+        weight: 1
+      - path: Cubo_6
+        weight: 1
+      - path: Toroide
+        weight: 1
+      - path: Toroide_1
+        weight: 1
+      - path: Toroide_2
+        weight: 1
+      - path: Toroide_3
+        weight: 1
+      - path: Toroide_4
+        weight: 1
+      - path: Toroide_5
+        weight: 1
+      - path: Toroide_6
+        weight: 1
+      - path: Toroide_7
+        weight: 1
+      - path: Toroide_8
+        weight: 1
+      - path: Toroide_9
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

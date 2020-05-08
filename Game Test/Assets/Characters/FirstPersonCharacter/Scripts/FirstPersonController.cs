@@ -43,8 +43,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
-        public Inventory inventory;
-
         // Use this for initialization
         private void Start()
         {
@@ -246,12 +244,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
             Rigidbody body = hit.collider.attachedRigidbody;
-            IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
-            if(item != null)
-            {
-                inventory.addItem(item);
-            }
-
 
             //dont move the rigidbody if the character is on top of it
             if (m_CollisionFlags == CollisionFlags.Below)

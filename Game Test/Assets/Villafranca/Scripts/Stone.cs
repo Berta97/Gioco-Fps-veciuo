@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
-public class Stone : MonoBehaviour, IInventoryItem
+public class Stone : InteractableItem, IInventoryItem
 {
     public Sprite _image = null;
     public string Name
@@ -23,6 +21,12 @@ public class Stone : MonoBehaviour, IInventoryItem
 
     public void onPickup()
     {
+
+    }
+
+    public override void onInteract()
+    {
+        interactText = "Premi E per indagare";
 
     }
 }

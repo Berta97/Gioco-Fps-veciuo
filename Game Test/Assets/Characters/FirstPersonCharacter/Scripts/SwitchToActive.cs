@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Player.Inventory;
 
-public class SwitchToActive : MonoBehaviour
+public class SwitchToActive : Photon.MonoBehaviour
 {
     [SerializeField]
     public Inventory inventory;
@@ -18,7 +18,6 @@ public class SwitchToActive : MonoBehaviour
             IInventoryItem weapon = inventory.GetItem(0);
             if (weapon != null)
             {
-                weaponPanel.ClearSlot();
                 weaponPanel.AddItem(weapon);
                 inventory.ClearSlot(0);
 
@@ -31,7 +30,6 @@ public class SwitchToActive : MonoBehaviour
             IInventoryItem weapon = inventory.GetItem(1);
             if (weapon != null)
             {
-                weaponPanel.ClearSlot();
                 inventory.ClearSlot(1);
                 weaponPanel.AddItem(weapon);
             }

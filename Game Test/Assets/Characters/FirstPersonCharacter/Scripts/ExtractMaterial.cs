@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using Lang;
 using Player.Inventory;
 
-public class ExtractMaterial : MonoBehaviour
+public class ExtractMaterial : Photon.MonoBehaviour
 {
 
     [SerializeField]
@@ -31,12 +31,9 @@ public class ExtractMaterial : MonoBehaviour
     [SerializeField]
     public LanguageManager languageManager;
 
-    [SerializeField]
-    public GameObject stone;
-
     private string itemBeingPickup;
     private float currentTimerElapsed;
-
+    private GameObject newItem = null;
 
     // Update is called once per frame
     void Update()
@@ -116,12 +113,10 @@ public class ExtractMaterial : MonoBehaviour
 
     private void MoveItemToInventory()
     {
-        GameObject newItem = null;
         if (itemBeingPickup.CompareTo("Marmo") == 0)
         {
-            newItem = Instantiate(stone, new Vector3(0, -10, 0), Quaternion.identity);
+            newItem = PhotonNetwork.Instantiate("StoneWeapon", new Vector3(0, -10, 0), Quaternion.identity,0);
         }
-        newItem.SetActive(false);
         inventory.AddItem(newItem.GetComponent<IInventoryItem>());
     }
 

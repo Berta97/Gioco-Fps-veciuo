@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using Player.Weapon;
 using UnityEngine;
 
 namespace Player.Inventory
 {
     public interface IInventoryItem
     {
-        string Name { get; }
+        Weapon.Weapon ID { get; }
         Sprite Image { get; }
 
         int Slot { get; }

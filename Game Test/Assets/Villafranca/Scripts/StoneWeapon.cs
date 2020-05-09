@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
-using Player.Inventory;
+using Player.Weapon;
 public class StoneWeapon : Item
 {
     
-    public override string Name
+    public override Weapon ID
     {
         get
         {
-            return languageManager.lang.stone;
+            return Weapon.stone;
         }
     }
 

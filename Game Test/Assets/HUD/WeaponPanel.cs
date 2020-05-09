@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Player.Inventory;
 
-public class WeaponPanel : MonoBehaviour
+public class WeaponPanel : Photon.MonoBehaviour
 {
     private IInventoryItem weaponUsed = null;
 
@@ -26,11 +26,6 @@ public class WeaponPanel : MonoBehaviour
         itemRemoved?.Invoke(this, new InventoryEventArgs(item));
     }
 
-    public void ClearSlot()
-    {
-        weaponUsed = null;
-        itemRemoved?.Invoke(this, new InventoryEventArgs(null));
-    }
 
 }
 

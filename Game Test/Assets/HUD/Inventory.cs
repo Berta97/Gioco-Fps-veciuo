@@ -35,6 +35,11 @@ namespace Player.Inventory
             return position < SLOTS ? mItem[position] : null;
         }
 
+        public bool isFull()
+        {
+            return mItem[0] != null && mItem[1] != null ;
+        }
+
         public void ClearSlot(int position)
         {
             if(position < SLOTS)

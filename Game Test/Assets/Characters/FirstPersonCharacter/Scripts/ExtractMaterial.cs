@@ -113,7 +113,7 @@ public class ExtractMaterial : Photon.MonoBehaviour
 
     private void MoveItemToInventory()
     {
-        if (itemBeingPickup.CompareTo("Marmo") == 0)
+        if (itemBeingPickup.CompareTo("Pietra") == 0)
         {
             newItem = PhotonNetwork.Instantiate("StoneWeapon", new Vector3(0, -10, 0), Quaternion.identity,0);
         }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 431165f24e7b58c448f666845ca2b2dc
+guid: 950590be6b6bf144eb1dc969a0e577a4
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
@@ -7,7 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: palette
+      name: defaultMat
     second: {fileID: -8469494145858465668, guid: 76f2706fef6bce24cb77748c1f747c05,
       type: 3}
   materials:
@@ -42,7 +42,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

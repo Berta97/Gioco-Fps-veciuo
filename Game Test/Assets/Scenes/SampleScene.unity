@@ -14887,6 +14887,81 @@ Transform:
   m_Father: {fileID: 1471997775}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &401225119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1047224087}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9120483
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9117339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0773468
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 183a3ee20544e954a87832478a0164ce,
+        type: 3}
+      propertyPath: m_Name
+      value: immobiliare san marco metallo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 183a3ee20544e954a87832478a0164ce, type: 3}
+--- !u!4 &401225120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 183a3ee20544e954a87832478a0164ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 401225119}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &401748375
 GameObject:
   m_ObjectHideFlags: 0
@@ -25243,6 +25318,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663626670}
   m_Mesh: {fileID: -2951926592234562067, guid: 3aa4bed2a267cc24a93dd178967293f1, type: 3}
+--- !u!1001 &664181096
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1047224087}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9120483
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9117339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0773468
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+        type: 3}
+      propertyPath: m_Name
+      value: immobiliare san marco
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2, type: 3}
+--- !u!4 &664181097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: c9e1b4bbcb8a2a54b8a99a1988fa47b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 664181096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &664272024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26038,6 +26188,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691941122}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &692934317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1047224087}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9120483
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9117339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0773468
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d0e7026597a1cf148b7c18d426f956e4,
+        type: 3}
+      propertyPath: m_Name
+      value: immobiliare san marco finestre
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0e7026597a1cf148b7c18d426f956e4, type: 3}
+--- !u!4 &692934318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d0e7026597a1cf148b7c18d426f956e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 692934317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &693007896
 GameObject:
   m_ObjectHideFlags: 0
@@ -32418,7 +32643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900278734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.4, y: 0.63, z: 77.9}
+  m_LocalPosition: {x: 29.6, y: 4.64, z: 62.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38093,6 +38318,39 @@ Transform:
   m_Father: {fileID: 1192667593}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!1 &1047224086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047224087}
+  m_Layer: 0
+  m_Name: Imm San marco
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1047224087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047224086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.177952, y: 5.631734, z: 64.91734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 692934318}
+  - {fileID: 401225120}
+  - {fileID: 664181097}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047823596
 GameObject:
   m_ObjectHideFlags: 0

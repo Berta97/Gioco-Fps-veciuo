@@ -28,10 +28,12 @@ MonoBehaviour:
   NetworkLogging: 1
   RunInBackground: 1
   RpcList:
+  - ApplyDamage
   - Chat
   - DestroyRpc
   - DisablePlayerWeapon
   - EnablePlayerWeapon
+  - InstantiateBullet
   - InstantiateRpc
   - PickupItemInit
   - PunPickup
@@ -39,6 +41,4 @@ MonoBehaviour:
   - PunRespawn
   - RequestForPickupItems
   - RequestForPickupTimes
-  - InstantiateBullet
-  - ApplyDamage
   DisableAutoOpenWizard: 1

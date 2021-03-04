@@ -32544,13 +32544,8 @@ Transform:
   m_Children:
   - {fileID: 1094228507}
   - {fileID: 422843744}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 11
-=======
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 1
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &857064524
 GameObject:
@@ -39382,15 +39377,8 @@ Transform:
   m_Children:
   - {fileID: 1000338534}
   - {fileID: 1436157193}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 14
-=======
-  - {fileID: 502259352}
-  - {fileID: 1532789445}
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 4
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047224086
 GameObject:
@@ -39422,13 +39410,8 @@ Transform:
   - {fileID: 692934318}
   - {fileID: 401225120}
   - {fileID: 664181097}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 13
-=======
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 3
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047823596
 GameObject:
@@ -52377,13 +52360,8 @@ Transform:
   - {fileID: 265952320}
   - {fileID: 316001631}
   - {fileID: 1202764669}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 10
-=======
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 0
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1389380637
 GameObject:
@@ -54936,11 +54914,7 @@ Transform:
   - {fileID: 1674930015}
   - {fileID: 1543048097}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 9
-=======
-  m_RootOrder: 8
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1474781097
 GameObject:
@@ -65594,13 +65568,8 @@ Transform:
   - {fileID: 969355225}
   - {fileID: 831330982}
   - {fileID: 1806026347}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 15
-=======
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 5
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1750034018
 GameObject:
@@ -67611,13 +67580,8 @@ Transform:
   - {fileID: 1987066718}
   - {fileID: 24481420}
   - {fileID: 664272025}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 8
-=======
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 7
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1798547199
 GameObject:
@@ -70768,13 +70732,8 @@ Transform:
   - {fileID: 1857021558}
   - {fileID: 78223430}
   - {fileID: 946835098}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 12
-=======
-  m_Father: {fileID: 543456415}
-  m_RootOrder: 2
->>>>>>> 1502af7ec571cd357cdbebdfb268468382cbdcd9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1870655995
 GameObject:

@@ -40,4 +40,5 @@ MonoBehaviour:
   - RequestForPickupItems
   - RequestForPickupTimes
   - InstantiateBullet
+  - ApplyDamage
   DisableAutoOpenWizard: 1

@@ -33,7 +33,7 @@ public class ExtractMaterial : Photon.MonoBehaviour
 
     private string itemBeingPickup;
     private float currentTimerElapsed;
-    private GameObject newItem = null;
+    private IInventoryItem newItem = null;
 
     // Update is called once per frame
     void Update()
@@ -115,9 +115,15 @@ public class ExtractMaterial : Photon.MonoBehaviour
     {
         if (itemBeingPickup.CompareTo("Pietra") == 0)
         {
-            newItem = PhotonNetwork.Instantiate("StoneWeapon", new Vector3(0, -10, 0), Quaternion.identity,0);
+            newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<StoneWeapon>();
         }
-        inventory.AddItem(newItem.GetComponent<IInventoryItem>());
+
+        if (itemBeingPickup.CompareTo("Legno") == 0)
+        {
+            newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<StickWeapon>();
+        }
+
+        inventory.AddItem(newItem);
     }
 
 }

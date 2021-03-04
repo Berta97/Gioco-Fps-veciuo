@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Player.Inventory;
+using Player.Weapon;
 
 public class SwitchToActive : Photon.MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class SwitchToActive : Photon.MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (photonView.isMine && Input.GetKey(KeyCode.Alpha1))
         {
             IInventoryItem weapon = inventory.GetItem(0);
             if (weapon != null)
@@ -25,7 +26,7 @@ public class SwitchToActive : Photon.MonoBehaviour
 
                 
         }
-        else if (Input.GetKey(KeyCode.Alpha2))
+        else if (photonView.isMine && Input.GetKey(KeyCode.Alpha2))
         {
             IInventoryItem weapon = inventory.GetItem(1);
             if (weapon != null)
@@ -35,9 +36,17 @@ public class SwitchToActive : Photon.MonoBehaviour
             }
                 
         }
-        else if (Input.GetKey(KeyCode.C))
+        else if (photonView.isMine && Input.GetKey(KeyCode.C))
         {
-
+            if (inventory.isFull())
+            {
+                if(inventory.GetItem(0).ID == Weapon.stone && inventory.GetItem(1).ID == Weapon.stone)
+                {
+                    inventory.ClearSlot(0);
+                    inventory.ClearSlot(1);
+                    inventory.AddItem(gameObject.transform.GetChild(0).GetChild(0).GetChild(2).GetComponent<FlintWeapon>());
+                }
+            }
         }
     }
 }

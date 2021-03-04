@@ -8,6 +8,12 @@ public class Item : Photon.MonoBehaviour, IInventoryItem
     [SerializeField]
     public Sprite _image = null;
 
+    [SerializeField]
+    public int munitions = 1;
+
+    [SerializeField]
+    public int damage = 10;
+
     private int slot = 0;
 
     public virtual Weapon ID { get { return Weapon.empty; } }

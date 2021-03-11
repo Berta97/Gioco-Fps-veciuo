@@ -188,6 +188,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello veg-9
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9393f1eaf7fbf3544a5846c6771e7952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 9393f1eaf7fbf3544a5846c6771e7952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9393f1eaf7fbf3544a5846c6771e7952, type: 3}
 --- !u!4 &45294826 stripped
@@ -262,6 +272,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-8
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29a0726edf6927646809c2061f836ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 29a0726edf6927646809c2061f836ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29a0726edf6927646809c2061f836ef7, type: 3}
@@ -460,6 +480,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 44a5d6222972adc48be82d9654c6890e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 44a5d6222972adc48be82d9654c6890e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a5d6222972adc48be82d9654c6890e, type: 3}
@@ -822,6 +852,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-11
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f093137f22f7deb4d97801253b09a522,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f093137f22f7deb4d97801253b09a522,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f093137f22f7deb4d97801253b09a522, type: 3}
 --- !u!4 &162372690 stripped
@@ -1026,6 +1066,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9563330922ec90c48b31d7bfde97e6b1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 9563330922ec90c48b31d7bfde97e6b1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9563330922ec90c48b31d7bfde97e6b1, type: 3}
 --- !u!4 &225501349 stripped
@@ -1100,6 +1150,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parcheggio castello parte veg-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f5b64fb5ed0b1714abc740a68d9d3cfd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f5b64fb5ed0b1714abc740a68d9d3cfd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5b64fb5ed0b1714abc740a68d9d3cfd, type: 3}
@@ -1368,6 +1428,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: pathway castle2.2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f30571a3c2c3e8f46bc00ac00f6d5483,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f30571a3c2c3e8f46bc00ac00f6d5483,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f30571a3c2c3e8f46bc00ac00f6d5483, type: 3}
 --- !u!4 &263760812 stripped
@@ -1442,6 +1512,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-5
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 177fe80cbac2f6d44838cfa5fe9d8c52,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 177fe80cbac2f6d44838cfa5fe9d8c52,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177fe80cbac2f6d44838cfa5fe9d8c52, type: 3}
@@ -1518,6 +1598,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-9
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e89983feb37055409ba7674e3e1c731,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 7e89983feb37055409ba7674e3e1c731,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e89983feb37055409ba7674e3e1c731, type: 3}
 --- !u!4 &272418252 stripped
@@ -1592,6 +1682,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parcheggio castello sistemat stone-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 92a2319cd8b6c9a42ac8de120b60a214,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 92a2319cd8b6c9a42ac8de120b60a214,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92a2319cd8b6c9a42ac8de120b60a214, type: 3}
@@ -2072,6 +2172,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-10
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 71e8e6c50fc18814584f63de60fd8465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 71e8e6c50fc18814584f63de60fd8465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e8e6c50fc18814584f63de60fd8465, type: 3}
 --- !u!4 &408328608 stripped
@@ -2146,6 +2256,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-6
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3a36db7ebb39e50448fab392558d19fc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 3a36db7ebb39e50448fab392558d19fc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a36db7ebb39e50448fab392558d19fc, type: 3}
@@ -2447,6 +2567,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello veg-10
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29eb77742807e674eabdbb677e7341f4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 29eb77742807e674eabdbb677e7341f4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29eb77742807e674eabdbb677e7341f4, type: 3}
 --- !u!4 &436589381 stripped
@@ -2521,6 +2651,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f603282237b38942902040f31c6d641,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 5f603282237b38942902040f31c6d641,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f603282237b38942902040f31c6d641, type: 3}
@@ -2602,6 +2742,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ea67f031b2b959a478c9262c1b8d0aea,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: ea67f031b2b959a478c9262c1b8d0aea,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea67f031b2b959a478c9262c1b8d0aea, type: 3}
@@ -2759,6 +2909,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-9
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e89983feb37055409ba7674e3e1c731,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 7e89983feb37055409ba7674e3e1c731,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e89983feb37055409ba7674e3e1c731, type: 3}
 --- !u!4 &535817633 stripped
@@ -2871,6 +3031,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-8
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5964a536b645ec648b12875eac8d417e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 5964a536b645ec648b12875eac8d417e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5964a536b645ec648b12875eac8d417e, type: 3}
@@ -3102,6 +3272,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 82a16cf83890e3648ba94b5a7a61bccf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 82a16cf83890e3648ba94b5a7a61bccf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a16cf83890e3648ba94b5a7a61bccf, type: 3}
@@ -3488,6 +3668,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-3
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b3a414484207c6d4ca8bffa6373d8e88,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: b3a414484207c6d4ca8bffa6373d8e88,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3a414484207c6d4ca8bffa6373d8e88, type: 3}
 --- !u!4 &711445010 stripped
@@ -3505,7 +3695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 719151694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Parcheggio castle dx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3694,6 +3884,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parcheggio castello parte metallo-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3ad41605cceefb94194759ff2d06444d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 3ad41605cceefb94194759ff2d06444d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ad41605cceefb94194759ff2d06444d, type: 3}
@@ -3993,6 +4193,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-6
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bf7b67b4731b422459992e008ffa25a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: bf7b67b4731b422459992e008ffa25a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf7b67b4731b422459992e008ffa25a2, type: 3}
 --- !u!4 &784020553 stripped
@@ -4067,6 +4277,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: be9dd9f9f08c7c940b4b9a85cbbb376d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: be9dd9f9f08c7c940b4b9a85cbbb376d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be9dd9f9f08c7c940b4b9a85cbbb376d, type: 3}
@@ -4240,6 +4460,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parcheggio pezzo a dx
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 61e18aad6e13f7f4daa11b0f7a12f1bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 61e18aad6e13f7f4daa11b0f7a12f1bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e18aad6e13f7f4daa11b0f7a12f1bc, type: 3}
@@ -4494,6 +4724,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-7
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6e67d8aa3baecea489ef40efa92f1d35,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 6e67d8aa3baecea489ef40efa92f1d35,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e67d8aa3baecea489ef40efa92f1d35, type: 3}
 --- !u!4 &895949832 stripped
@@ -4728,6 +4968,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f603282237b38942902040f31c6d641,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 5f603282237b38942902040f31c6d641,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f603282237b38942902040f31c6d641, type: 3}
 --- !u!4 &949076700 stripped
@@ -4871,6 +5121,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f9a165eae8a9e544f887ecf8724cbe80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f9a165eae8a9e544f887ecf8724cbe80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9a165eae8a9e544f887ecf8724cbe80, type: 3}
@@ -5438,6 +5698,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parcheggio castello parte veg-1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 88d65e956bd07ce41aab387c1e1e2d84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 88d65e956bd07ce41aab387c1e1e2d84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88d65e956bd07ce41aab387c1e1e2d84, type: 3}
 --- !u!1001 &999225741
@@ -5506,6 +5776,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-10
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 71e8e6c50fc18814584f63de60fd8465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 71e8e6c50fc18814584f63de60fd8465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e8e6c50fc18814584f63de60fd8465, type: 3}
@@ -6217,6 +6497,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello veg-6
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3a36db7ebb39e50448fab392558d19fc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 3a36db7ebb39e50448fab392558d19fc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a36db7ebb39e50448fab392558d19fc, type: 3}
 --- !u!4 &1076977830 stripped
@@ -6436,6 +6726,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-6
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bf7b67b4731b422459992e008ffa25a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: bf7b67b4731b422459992e008ffa25a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf7b67b4731b422459992e008ffa25a2, type: 3}
 --- !u!4 &1122038700 stripped
@@ -6510,6 +6810,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-9
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9393f1eaf7fbf3544a5846c6771e7952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 9393f1eaf7fbf3544a5846c6771e7952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9393f1eaf7fbf3544a5846c6771e7952, type: 3}
@@ -6792,6 +7102,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 82a16cf83890e3648ba94b5a7a61bccf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 82a16cf83890e3648ba94b5a7a61bccf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a16cf83890e3648ba94b5a7a61bccf, type: 3}
@@ -7087,6 +7407,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parcheggio castello parte metallo-0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1fa5e6048d0a8c84da69f95e263ca413,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 1fa5e6048d0a8c84da69f95e263ca413,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fa5e6048d0a8c84da69f95e263ca413, type: 3}
 --- !u!1001 &1384152951
@@ -7268,6 +7598,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 649d4a521f1bc0b42b9c51902d4db4d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 649d4a521f1bc0b42b9c51902d4db4d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 649d4a521f1bc0b42b9c51902d4db4d6, type: 3}
@@ -7597,6 +7937,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parcheggio castello sistemat stone-0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 002ee6344ea5753498cf808cfe1c25b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 002ee6344ea5753498cf808cfe1c25b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 002ee6344ea5753498cf808cfe1c25b6, type: 3}
 --- !u!1 &1472520730
@@ -7709,6 +8059,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pathway castle1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5292127bd03058949b0e47aad770c4cd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 5292127bd03058949b0e47aad770c4cd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5292127bd03058949b0e47aad770c4cd, type: 3}
@@ -7992,6 +8352,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-11
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f093137f22f7deb4d97801253b09a522,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f093137f22f7deb4d97801253b09a522,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f093137f22f7deb4d97801253b09a522, type: 3}
 --- !u!4 &1549824743 stripped
@@ -8067,6 +8437,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-5
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 177fe80cbac2f6d44838cfa5fe9d8c52,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 177fe80cbac2f6d44838cfa5fe9d8c52,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177fe80cbac2f6d44838cfa5fe9d8c52, type: 3}
 --- !u!4 &1560640383 stripped
@@ -8141,6 +8521,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-7
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6c2bfd5aa75d92643b1f60d4a7992b01,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 6c2bfd5aa75d92643b1f60d4a7992b01,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c2bfd5aa75d92643b1f60d4a7992b01, type: 3}
@@ -8375,6 +8765,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-8
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29a0726edf6927646809c2061f836ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 29a0726edf6927646809c2061f836ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29a0726edf6927646809c2061f836ef7, type: 3}
 --- !u!4 &1647445950 stripped
@@ -8524,6 +8924,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: aa4525f3a88742e428f449ce0bab5598,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: aa4525f3a88742e428f449ce0bab5598,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa4525f3a88742e428f449ce0bab5598, type: 3}
@@ -8694,6 +9104,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pathway castle2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c9a8566d80d13574c9c56c2b4f71d949,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: c9a8566d80d13574c9c56c2b4f71d949,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9a8566d80d13574c9c56c2b4f71d949, type: 3}
@@ -9301,6 +9721,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello veg-10
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29eb77742807e674eabdbb677e7341f4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 29eb77742807e674eabdbb677e7341f4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29eb77742807e674eabdbb677e7341f4, type: 3}
 --- !u!4 &1875070845 stripped
@@ -9388,6 +9818,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello veg-1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: aa4525f3a88742e428f449ce0bab5598,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: aa4525f3a88742e428f449ce0bab5598,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa4525f3a88742e428f449ce0bab5598, type: 3}
 --- !u!4 &1897765075 stripped
@@ -9462,6 +9902,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-8
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5964a536b645ec648b12875eac8d417e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 5964a536b645ec648b12875eac8d417e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5964a536b645ec648b12875eac8d417e, type: 3}
@@ -9612,6 +10062,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello stone-4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9563330922ec90c48b31d7bfde97e6b1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 9563330922ec90c48b31d7bfde97e6b1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9563330922ec90c48b31d7bfde97e6b1, type: 3}
 --- !u!4 &1929131357 stripped
@@ -9686,6 +10146,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f9a165eae8a9e544f887ecf8724cbe80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f9a165eae8a9e544f887ecf8724cbe80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9a165eae8a9e544f887ecf8724cbe80, type: 3}
@@ -9831,6 +10301,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Park castello veg-7
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6c2bfd5aa75d92643b1f60d4a7992b01,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 6c2bfd5aa75d92643b1f60d4a7992b01,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c2bfd5aa75d92643b1f60d4a7992b01, type: 3}
 --- !u!4 &1998449169 stripped
@@ -9905,6 +10385,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello stone-7
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6e67d8aa3baecea489ef40efa92f1d35,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 6e67d8aa3baecea489ef40efa92f1d35,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e67d8aa3baecea489ef40efa92f1d35, type: 3}
@@ -10049,6 +10539,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Park castello veg-4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 44a5d6222972adc48be82d9654c6890e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 44a5d6222972adc48be82d9654c6890e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a5d6222972adc48be82d9654c6890e, type: 3}
@@ -10210,6 +10710,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pathway castle1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db2b7129905a9ea41a1515d371a79357,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: db2b7129905a9ea41a1515d371a79357,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db2b7129905a9ea41a1515d371a79357, type: 3}

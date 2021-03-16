@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 6cd82fdcd7f8562469e1f72e11005fc0
+guid: 40824c23ab3160247aef0231889c5107
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Idle
+    second: mixamo.com
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: 0c78f24cd09ca5247a8641337cbd8b90, type: 2}
+    second: {fileID: 2100000, guid: 3de732770f1c3a04397af508ace0641c, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -40,11 +40,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: mixamo.com
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 287
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

@@ -10,6 +10,7 @@ public class animationStateController : MonoBehaviour
     int IsJumpingHash;
     int IsRunjumpingHash;
     int IsPickingHash;
+    int IsRetringHash;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class animationStateController : MonoBehaviour
         IsJumpingHash = Animator.StringToHash("IsJumping");
         IsRunjumpingHash = Animator.StringToHash("IsRunjumping");
         IsPickingHash = Animator.StringToHash("IsPicking");
+        IsRetringHash = Animator.StringToHash("IsRetring");
     }
 
     // Update is called once per frame
@@ -30,12 +32,14 @@ public class animationStateController : MonoBehaviour
         bool IsJumping = animator.GetBool(IsJumpingHash);
         bool IsRunjumping = animator.GetBool(IsRunjumpingHash);
         bool IsPicking = animator.GetBool(IsPickingHash);
+        bool IsRetring = animator.GetBool(IsRetringHash);
 
         bool forwardPressed = Input.GetKey("w");
         bool runPressed = Input.GetKey("left shift");
         bool jumpPressed = Input.GetKey("space");
         bool runjumpPressed = Input.GetKey("space");
         bool pickingPressed = Input.GetKey("e");
+        bool retroPressed = Input.GetKey("s");
 
 
         if (!IsWalking && forwardPressed )
@@ -85,6 +89,16 @@ public class animationStateController : MonoBehaviour
         if (IsPicking && !pickingPressed)
         {
             animator.SetBool(IsPickingHash, false);
+        }
+       
+        //retro
+        if (!IsRetring && retroPressed)
+        {
+            animator.SetBool(IsRetringHash, true);
+        }
+        if (IsRetring && !retroPressed)
+        {
+            animator.SetBool(IsRetringHash, false);
         }
     }
 }

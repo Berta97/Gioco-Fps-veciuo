@@ -34,7 +34,7 @@ public class animationStateController : MonoBehaviour
         bool IsPicking = animator.GetBool(IsPickingHash);
         bool IsRetring = animator.GetBool(IsRetringHash);
 
-        bool forwardPressed = Input.GetKey("w");
+        bool forwardPressed = Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("d");
         bool runPressed = Input.GetKey("left shift");
         bool jumpPressed = Input.GetKey("space");
         bool runjumpPressed = Input.GetKey("space");

@@ -11,6 +11,8 @@ public class animationStateController : MonoBehaviour
     int IsRunjumpingHash;
     int IsPickingHash;
     int IsRetringHash;
+    int IsCrouchingHash;
+    int IsWCrouchingHash;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,8 @@ public class animationStateController : MonoBehaviour
         IsRunjumpingHash = Animator.StringToHash("IsRunjumping");
         IsPickingHash = Animator.StringToHash("IsPicking");
         IsRetringHash = Animator.StringToHash("IsRetring");
+        IsCrouchingHash = Animator.StringToHash("IsCrouching");
+        IsWCrouchingHash = Animator.StringToHash("IsWCrouching");
     }
 
     // Update is called once per frame
@@ -33,6 +37,8 @@ public class animationStateController : MonoBehaviour
         bool IsRunjumping = animator.GetBool(IsRunjumpingHash);
         bool IsPicking = animator.GetBool(IsPickingHash);
         bool IsRetring = animator.GetBool(IsRetringHash);
+        bool IsCrouching = animator.GetBool(IsCrouchingHash);
+        bool IsWCrouching = animator.GetBool(IsWCrouchingHash);
 
         bool forwardPressed = Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("d");
         bool runPressed = Input.GetKey("left shift");
@@ -40,6 +46,7 @@ public class animationStateController : MonoBehaviour
         bool runjumpPressed = Input.GetKey("space");
         bool pickingPressed = Input.GetKey("e");
         bool retroPressed = Input.GetKey("s");
+        bool crouchPressed = Input.GetKey("left ctrl");
 
 
         if (!IsWalking && forwardPressed )
@@ -99,6 +106,26 @@ public class animationStateController : MonoBehaviour
         if (IsRetring && !retroPressed)
         {
             animator.SetBool(IsRetringHash, false);
+        }
+
+        //Crouching
+        if (!IsCrouching && crouchPressed)
+        {
+            animator.SetBool(IsCrouchingHash, true);
+        }
+        if (IsCrouching && !crouchPressed)
+        {
+            animator.SetBool(IsCrouchingHash, false);
+        }
+
+        //walk crouching
+        if (!IsWCrouching && (forwardPressed && crouchPressed))
+        {
+            animator.SetBool(IsWCrouchingHash, true);
+        }
+        if (IsWCrouching && (!forwardPressed || !crouchPressed))
+        {
+            animator.SetBool(IsWCrouchingHash, false);
         }
     }
 }

@@ -29,6 +29,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
+        [SerializeField] public int selectedcharacter = 0;
+
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -56,6 +58,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+
+            
+            gameObject.transform.Find("Tipologia Personaggio").GetChild(selectedcharacter).gameObject.SetActive(true);
         }
 
 

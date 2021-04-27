@@ -4464,6 +4464,7 @@ Transform:
   - {fileID: 1013369500}
   - {fileID: 1823881128}
   - {fileID: 597821664}
+  - {fileID: 1364301487}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12564,6 +12565,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1361758193}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1364301486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1364301487}
+  m_Layer: 8
+  m_Name: Immobiliare albertini
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1364301487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364301486}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -8.39, y: 10, z: 46.099915}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1598723691}
+  - {fileID: 1521723378}
+  - {fileID: 2095864081}
+  - {fileID: 1946769459}
+  m_Father: {fileID: 543456415}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1367243214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14200,6 +14235,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1492094415}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1521723377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1364301487}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_Name
+      value: Immobiliare albertini tessuto
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 1248db40396bc874a8688ed2cbc3719e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1248db40396bc874a8688ed2cbc3719e, type: 3}
+--- !u!4 &1521723378 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1248db40396bc874a8688ed2cbc3719e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1521723377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1523406678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15092,6 +15212,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8a059a4243af6b34caab6c00d32c09e1,
     type: 3}
   m_PrefabInstance: {fileID: 1597896119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1598723690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1364301487}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_Name
+      value: Immobiliare albertini metallo
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: e98b4d654cc681346a086fb2834685d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e98b4d654cc681346a086fb2834685d1, type: 3}
+--- !u!4 &1598723691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e98b4d654cc681346a086fb2834685d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1598723690}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1599691408
 PrefabInstance:
@@ -18126,6 +18331,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1929354180}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1946769458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1364301487}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_Name
+      value: Immobiliare albertini
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a53e1392c2cf6e48a34d59d40f42a79, type: 3}
+--- !u!4 &1946769459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9a53e1392c2cf6e48a34d59d40f42a79,
+    type: 3}
+  m_PrefabInstance: {fileID: 1946769458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1950620812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19230,6 +19520,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 44a5d6222972adc48be82d9654c6890e,
     type: 3}
   m_PrefabInstance: {fileID: 2087360255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2095864080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1364301487}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_Name
+      value: Immobiliare albertini vetro
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: fc5df2e8082e3f44892d990021b47859,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc5df2e8082e3f44892d990021b47859, type: 3}
+--- !u!4 &2095864081 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fc5df2e8082e3f44892d990021b47859,
+    type: 3}
+  m_PrefabInstance: {fileID: 2095864080}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2100499590
 PrefabInstance:

@@ -2073,6 +2073,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 263760811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &264759499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna legno-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7b9d93e740c7e0468679ded8e1fdb80, type: 3}
 --- !u!1001 &270719494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3606,6 +3685,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 438901129}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &440688244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna vetro-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7d98551f59cf7b4e8fc93c7c4c63722, type: 3}
 --- !u!4 &448818020 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 15b6658bdd513dd4488d88b13662ba71,
@@ -4112,6 +4270,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 956081473}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &523813426
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna metallo-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: ff58c586e0a58a449b7270471465c737,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff58c586e0a58a449b7270471465c737, type: 3}
 --- !u!1001 &539002586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4465,6 +4702,7 @@ Transform:
   - {fileID: 1823881128}
   - {fileID: 597821664}
   - {fileID: 1364301487}
+  - {fileID: 1645723910}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4918,6 +5156,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &620368805 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+    type: 3}
+  m_PrefabInstance: {fileID: 1889145118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &621392243
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5325,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 31acda8626600944f83eaf4fe35c651a,
     type: 3}
   m_PrefabInstance: {fileID: 632263961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &670871957 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1386528491}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &685347309
 PrefabInstance:
@@ -6203,6 +6453,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50709c352206c024ead849dd019949a5, type: 3}
+--- !u!4 &769154289 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+    type: 3}
+  m_PrefabInstance: {fileID: 1393324770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &769199786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8016,6 +8272,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 942278067}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &942727200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna legno-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1935f9e0bac0af1449937c9bbd4313e6, type: 3}
 --- !u!1001 &942930821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11768,6 +12103,85 @@ Transform:
   m_Father: {fileID: 1061327610}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1298248432
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna metallo-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc33efb0ba53cdb4186ea5bfe30247f2, type: 3}
 --- !u!1 &1303659580
 GameObject:
   m_ObjectHideFlags: 0
@@ -12049,6 +12463,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 831f01d14f106fc4e834abf9d125a7e2,
     type: 3}
   m_PrefabInstance: {fileID: 1315905468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1335500463 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1935f9e0bac0af1449937c9bbd4313e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 942727200}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1336342479
 PrefabInstance:
@@ -12932,6 +13352,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1384152951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1386528491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 5db317880f06c8b469256d48c426f5a3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5db317880f06c8b469256d48c426f5a3, type: 3}
 --- !u!1 &1387716746
 GameObject:
   m_ObjectHideFlags: 0
@@ -12965,6 +13464,85 @@ Transform:
   m_Father: {fileID: 543456415}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1393324770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 3645ce4bf8e9d9744b3e5853938fc809,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3645ce4bf8e9d9744b3e5853938fc809, type: 3}
 --- !u!1001 &1393550990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13407,6 +13985,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f61a608a437e6704fa237177b1c45518,
     type: 3}
   m_PrefabInstance: {fileID: 1436157192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1458380518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ff58c586e0a58a449b7270471465c737,
+    type: 3}
+  m_PrefabInstance: {fileID: 523813426}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1459652313
 PrefabInstance:
@@ -14996,6 +15580,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1568858531}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1577304603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fc33efb0ba53cdb4186ea5bfe30247f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1298248432}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1579870245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15628,6 +16218,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1635300373}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1639495401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f7b9d93e740c7e0468679ded8e1fdb80,
+    type: 3}
+  m_PrefabInstance: {fileID: 264759499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1645723909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645723910}
+  m_Layer: 8
+  m_Name: Ex Osp Morelli bugna
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645723910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645723909}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 31.244728, y: 9.196286, z: 47.559914}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 1335500463}
+  - {fileID: 1639495401}
+  - {fileID: 1577304603}
+  - {fileID: 1458380518}
+  - {fileID: 620368805}
+  - {fileID: 1792616523}
+  - {fileID: 670871957}
+  - {fileID: 769154289}
+  m_Father: {fileID: 543456415}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1647445949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16805,6 +17439,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1779807685}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1792616523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d7d98551f59cf7b4e8fc93c7c4c63722,
+    type: 3}
+  m_PrefabInstance: {fileID: 440688244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1793309456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17735,6 +18375,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1884054973}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1889145118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1645723910}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_Name
+      value: Ospedale Morelli bugna vetro-0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 1f4d7a2fde2d6c849966c5fb344ac227,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f4d7a2fde2d6c849966c5fb344ac227, type: 3}
 --- !u!4 &1889494708 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3ad41605cceefb94194759ff2d06444d,

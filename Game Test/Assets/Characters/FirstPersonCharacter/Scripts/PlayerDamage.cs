@@ -26,6 +26,7 @@ public class PlayerDamage : Photon.MonoBehaviour
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
+                NetworkManager.netManager.PlayerIsDead();
                 PhotonNetwork.Destroy(gameObject);
             }
             healthText.text = currentHealth.ToString();

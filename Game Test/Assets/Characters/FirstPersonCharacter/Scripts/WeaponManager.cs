@@ -4,7 +4,7 @@ using Player.Inventory;
 
 namespace Player.Weapon
 {
-    public enum Weapon { empty, stone, stick, flint, spear };
+    public enum Weapon { empty, stone, stick, flint, spear, slingshot };
 
     public interface IShoot
     {

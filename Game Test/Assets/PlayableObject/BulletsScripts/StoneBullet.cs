@@ -12,7 +12,12 @@ public class StoneBullet : BasicBullet
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("COLPITOOOOO!!!");
+        if(collision.collider.tag == "Player" && PhotonNetwork.isMasterClient)
+        {
+            Debug.Log("COLPITOOOOO!!!");
+            collision.collider.GetComponent<PlayerDamage>().UpdateDamage(damage);
+        }
+        
         Destroy(gameObject);
     }
 }

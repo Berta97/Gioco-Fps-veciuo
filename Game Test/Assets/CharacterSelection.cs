@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class CharacterSelection : MonoBehaviour
+
+
+public class CharacterSelection : Photon.MonoBehaviour
 {
     public GameObject[] characters;
     public int selectedCharacter = 0;
-
-    private GameObject Player;
+    public int selectedSkin = 0;
 
     public void NextCharacter()
     {
@@ -39,14 +40,22 @@ public class CharacterSelection : MonoBehaviour
         PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
         SceneManager.LoadScene(2, LoadSceneMode.Single);
 
-        FirstPersonController fpc = Player.gameObject.GetComponent(typeof(FirstPersonController)) as FirstPersonController;
-        fpc.selectedcharacter = selectedCharacter;
-        
+        PlayerInfo playerInfo = gameObject.GetComponent(typeof(PlayerInfo)) as PlayerInfo;
 
+        playerInfo.model = selectedCharacter;
+        playerInfo.skin = selectedSkin;
+        playerInfo.SaveToString();
     }
 
-    public void Start()
+    public void NextSkin()
     {
-        Player = Resources.Load("Player") as GameObject;
+        selectedSkin++;
+
+        if (selectedSkin >= 7)
+        {
+            selectedSkin = 0;
+
+        }
+
     }
 }

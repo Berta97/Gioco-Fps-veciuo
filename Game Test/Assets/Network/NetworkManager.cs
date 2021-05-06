@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,10 +15,13 @@ public class NetworkManager : Photon.MonoBehaviour
     public Transform spawnPoint;
     [SerializeField]
     public Text respawnText;
+    [SerializeField]
     public float spawnDelay = 3f;
 
+    
     private bool isDead = false;
     private float timeNeeded = 0f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +30,7 @@ public class NetworkManager : Photon.MonoBehaviour
         timeNeeded = spawnDelay;
         PhotonNetwork.autoJoinLobby = true;
         PhotonNetwork.ConnectUsingSettings("FPS Test version 1");
+
     }
 
     void OnGUI()
@@ -60,19 +67,22 @@ public class NetworkManager : Photon.MonoBehaviour
 
     void OnJoinedRoom()
     {
+
         PlayerIsDead();
-        
     }
 
     void RespawnPlayer()
     {
-        PhotonNetwork.Instantiate("Player", spawnPoint.position, spawnPoint.rotation,0);
+        GameObject player = PhotonNetwork.Instantiate("Player", spawnPoint.position, spawnPoint.rotation,0);
+        SkinManager sm = player.GetComponent(typeof(SkinManager)) as SkinManager;
+        sm.SetSkin();
     }
 
     public void PlayerIsDead()
     {
         isDead = true;
         respawnText.gameObject.SetActive(true);
-
     }
+
+    
 }

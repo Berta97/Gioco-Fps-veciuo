@@ -14,6 +14,9 @@ public class Item : Photon.MonoBehaviour, IInventoryItem
     [SerializeField]
     public int damage = 10;
 
+    [SerializeField]
+    public AudioSource waponSound;
+
     private int slot = 0;
 
     public virtual Weapon ID { get { return Weapon.empty; } }

@@ -5,17 +5,15 @@ using UnityEngine;
 
 public class StickWeapon : Item, IShoot
 {
-    AudioSource m_bastonataSound;
 
     public void Start()
     {
-        m_bastonataSound = GetComponent<AudioSource>();
-    } 
-
+        waponSound = GetComponent<AudioSource>();
+    }
     public void Shoot()
     {
         Debug.Log("TI ARRIVA UNA MAZZOLATA!!!");
-        m_bastonataSound.Play();
+        waponSound.Play();
     }
 
     public override Weapon ID

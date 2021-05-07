@@ -47,21 +47,21 @@ namespace Player.Weapon
                         item = weaponHolder.transform.GetChild(0).gameObject;
                         weapon = item.GetComponent<StoneWeapon>();
                         weapon.Shoot();
-                        if (currentAmmo == 0)
+                        if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
                     case (Weapon.stick):
                         item = weaponHolder.transform.GetChild(1).gameObject;
                         weapon = item.GetComponent<StickWeapon>();
                         weapon.Shoot();
-                        if (currentAmmo == 0)
+                        if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
                     case (Weapon.flint):
                         item = weaponHolder.transform.GetChild(2).gameObject;
                         weapon = item.GetComponent<FlintWeapon>();
                         weapon.Shoot();
-                        if (currentAmmo == 0)
+                        if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
                     case (Weapon.spear):

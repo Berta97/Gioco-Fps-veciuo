@@ -4,11 +4,10 @@ using System.Runtime.CompilerServices;
 
 public class StoneWeapon : Item, IShoot
 {
-    AudioSource m_bastonataSound;
 
     public void Start()
     {
-        m_bastonataSound = GetComponent<AudioSource>();
+        waponSound = GetComponent<AudioSource>();
     }
 
     public override Weapon ID
@@ -30,7 +29,7 @@ public class StoneWeapon : Item, IShoot
     public void Shoot()
     {
         photonView.RPC("InstantiateBullet", PhotonTargets.AllBuffered);
-        m_bastonataSound.Play();
+        waponSound.Play();
     }
 
 

@@ -28,8 +28,8 @@ public class StoneWeapon : Item, IShoot
 
     public void Shoot()
     {
-        photonView.RPC("InstantiateBullet", PhotonTargets.AllBuffered);
         waponSound.Play();
+        photonView.RPC("InstantiateBullet", PhotonTargets.AllBuffered);
     }
 
 

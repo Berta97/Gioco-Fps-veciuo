@@ -16,9 +16,13 @@ public class NetworkManager : Photon.MonoBehaviour
     [SerializeField]
     public Text respawnText;
     [SerializeField]
+    public Image map;
+    [SerializeField]
     public float spawnDelay = 3f;
+    [SerializeField]
+    public Camera cameraIntro;
 
-    
+
     private bool isDead = false;
     private float timeNeeded = 0f;
 
@@ -28,6 +32,8 @@ public class NetworkManager : Photon.MonoBehaviour
     {
         netManager = this;
         timeNeeded = spawnDelay;
+        cameraIntro.gameObject.SetActive(true);
+        map.gameObject.SetActive(false);
         PhotonNetwork.autoJoinLobby = true;
         PhotonNetwork.ConnectUsingSettings("FPS Test version 1");
 
@@ -42,6 +48,8 @@ public class NetworkManager : Photon.MonoBehaviour
     {
         if (isDead)
         {
+            cameraIntro.gameObject.SetActive(true);
+            map.gameObject.SetActive(false);
             respawnText.text = "Respawning..." + Mathf.Round(timeNeeded);
             timeNeeded -= Time.deltaTime;
             if(timeNeeded < 0.5f)
@@ -76,6 +84,8 @@ public class NetworkManager : Photon.MonoBehaviour
         GameObject player = PhotonNetwork.Instantiate("Player", spawnPoint.position, spawnPoint.rotation,0);
         SkinManager sm = player.GetComponent(typeof(SkinManager)) as SkinManager;
         sm.SetSkin();
+        cameraIntro.gameObject.SetActive(false);
+        map.gameObject.SetActive(true);
     }
 
     public void PlayerIsDead()

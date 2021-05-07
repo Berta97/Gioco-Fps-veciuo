@@ -38,6 +38,14 @@ public class PlayerDamage : Photon.MonoBehaviour
         photonView.RPC("ApplyDamage", PhotonTargets.AllViaServer, damage);
     }
 
+    private void OnTriggerEnter(Collider col)
+    {
+        if(col.gameObject.tag == "EndMap" && photonView.isMine)
+        {
+            currentHealth = 0;
+        }
+    }
+
     [PunRPC]
     void ApplyDamage(int damage)
     {

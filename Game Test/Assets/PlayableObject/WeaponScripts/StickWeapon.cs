@@ -6,14 +6,30 @@ using UnityEngine;
 public class StickWeapon : Item, IShoot
 {
 
+    private bool isShoot = false;
+    private float timeAction = 0.5f;
+
     public void Start()
     {
         waponSound = GetComponent<AudioSource>();
     }
+
+    private void Update()
+    {
+        if(isShoot == true)
+        {
+            if(timeAction <= 0) 
+            {
+                isShoot = false;
+            }
+            timeAction -= Time.deltaTime;
+        }
+    }
     public void Shoot()
     {
-        Debug.Log("TI ARRIVA UNA MAZZOLATA!!!");
         waponSound.Play();
+        isShoot = true;
+        timeAction = 0.5f;
     }
 
     public override Weapon ID
@@ -29,6 +45,16 @@ public class StickWeapon : Item, IShoot
         get
         {
             return _image;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Player" && isShoot && PhotonNetwork.isMasterClient)
+        {
+            Debug.Log("MAZZOLATA!!!");
+            collision.collider.GetComponent<PlayerDamage>().UpdateDamage(damage);
+            isShoot = false;
         }
     }
 }

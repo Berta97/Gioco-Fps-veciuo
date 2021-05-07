@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
 
@@ -9,8 +10,11 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class CharacterSelection : Photon.MonoBehaviour
 {
     public GameObject[] characters;
-    public int selectedCharacter = 0;
-    public int selectedSkin = 0;
+    public GameObject selectionPanel;
+    public InputField nameField;
+
+    private int selectedCharacter = 0;
+    private int selectedSkin = 0;
 
     public void NextCharacter()
     {
@@ -37,14 +41,21 @@ public class CharacterSelection : Photon.MonoBehaviour
     
     public void StartGame()
     {
-        PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
-        SceneManager.LoadScene(2, LoadSceneMode.Single);
 
-        PlayerInfo playerInfo = gameObject.GetComponent(typeof(PlayerInfo)) as PlayerInfo;
+        if (nameField.text != "")
+        {
+            PhotonNetwork.player.NickName = nameField.text;
 
-        playerInfo.model = selectedCharacter;
-        playerInfo.skin = selectedSkin;
-        playerInfo.SaveToString();
+
+            PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
+            SceneManager.LoadScene(2, LoadSceneMode.Single);
+
+            PlayerInfo playerInfo = gameObject.GetComponent(typeof(PlayerInfo)) as PlayerInfo;
+
+            playerInfo.model = selectedCharacter;
+            playerInfo.skin = selectedSkin;
+            playerInfo.SaveToString();
+        }
     }
 
     public void NextSkin()

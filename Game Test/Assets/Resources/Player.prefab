@@ -526,6 +526,8 @@ GameObject:
   - component: {fileID: 193312803695179032}
   - component: {fileID: 193312803695179035}
   - component: {fileID: 3221554731088464937}
+  - component: {fileID: 3231562772052890687}
+  - component: {fileID: 5307860437573622671}
   m_Layer: 0
   m_Name: FlintWeapon
   m_TagString: Untagged
@@ -574,7 +576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _image: {fileID: 21300000, guid: 6707b5adf6570804ca1a3027ffd7eeff, type: 3}
-  munitions: 3
+  munitions: 4
   damage: 10
 --- !u!114 &193312803695179032
 MonoBehaviour:
@@ -778,6 +780,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &3231562772052890687
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193312803695179037}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1c32ac18ca39be9409986be1506e3f61, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5307860437573622671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193312803695179037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d939c3e9dc7f8b4f9d40586eaff18ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193312803762642152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1131,8 @@ GameObject:
   - component: {fileID: 193312803970007960}
   - component: {fileID: 193312803970007963}
   - component: {fileID: 7396503128753527857}
+  - component: {fileID: 8143210396526781594}
+  - component: {fileID: 3492310051059762396}
   m_Layer: 0
   m_Name: StickWeapon
   m_TagString: Untagged
@@ -1350,6 +1385,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &8143210396526781594
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193312803970007965}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48a2d286edfea2c42b70a489047022dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3492310051059762396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193312803970007965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d939c3e9dc7f8b4f9d40586eaff18ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193312804075698293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2697,6 +2763,8 @@ GameObject:
   - component: {fileID: 193312805095386004}
   - component: {fileID: 193312805095386007}
   - component: {fileID: 309187758336213803}
+  - component: {fileID: 5932072563005067030}
+  - component: {fileID: 5697678799094064414}
   m_Layer: 0
   m_Name: StoneWeapon
   m_TagString: Untagged
@@ -2949,6 +3017,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &5932072563005067030
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193312805095386009}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74873044aabcb284a895c074e39aae84, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5697678799094064414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193312805095386009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d939c3e9dc7f8b4f9d40586eaff18ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193312805122974575
 GameObject:
   m_ObjectHideFlags: 0

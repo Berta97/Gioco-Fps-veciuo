@@ -7,7 +7,7 @@ public class StickWeapon : Item, IShoot
 {
 
     private bool isShoot = false;
-    private float timeAction = 0.5f;
+    private float timeAction = 1f;
 
     public void Start()
     {
@@ -29,7 +29,7 @@ public class StickWeapon : Item, IShoot
     {
         waponSound.Play();
         isShoot = true;
-        timeAction = 0.5f;
+        timeAction = 1f;
     }
 
     public override Weapon ID
@@ -48,8 +48,14 @@ public class StickWeapon : Item, IShoot
         }
     }
 
+
+    private void OnTriggerEnter(Collider col)
+    {
+        Debug.Log("PIZZA!!!");
+    }
     void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("PIZZA!!!");
         if (collision.collider.tag == "Player" && isShoot && PhotonNetwork.isMasterClient)
         {
             Debug.Log("MAZZOLATA!!!");

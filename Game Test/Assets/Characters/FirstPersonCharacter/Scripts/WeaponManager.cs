@@ -4,7 +4,7 @@ using Player.Inventory;
 
 namespace Player.Weapon
 {
-    public enum Weapon { empty, stone, stick, flint, spear, slingshot };
+    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang };
 
     public interface IShoot
     {
@@ -78,7 +78,14 @@ namespace Player.Weapon
                         if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
-                   
+                    case (Weapon.boomerang):
+                        item = weaponHolder.transform.GetChild(5).gameObject;
+                        weapon = item.GetComponent<BoomerangWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
+                        break;
+
                     default: break;
                 }
             }
@@ -150,8 +157,13 @@ namespace Player.Weapon
                     weap = weaponHolder.transform.GetChild(4).gameObject;
                     currentAmmo = weap.GetComponent<SpearWeapon>().munitions;
                     break;
-                  
-               
+                case (Weapon.boomerang):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 5);
+                    weap = weaponHolder.transform.GetChild(5).gameObject;
+                    currentAmmo = weap.GetComponent<BoomerangWeapon>().munitions;
+                    break;
+
+
                 default: break;
             }
         }
@@ -180,6 +192,10 @@ namespace Player.Weapon
                     break;
                 case (Weapon.spear):
                     photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 4);
+                    currentWeapon = Weapon.empty;
+                    break;
+                case (Weapon.boomerang):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 5);
                     currentWeapon = Weapon.empty;
                     break;
 

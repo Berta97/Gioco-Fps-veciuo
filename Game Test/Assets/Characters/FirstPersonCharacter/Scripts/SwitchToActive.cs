@@ -46,6 +46,13 @@ public class SwitchToActive : Photon.MonoBehaviour
                     inventory.ClearSlot(1);
                     inventory.AddItem(gameObject.transform.GetChild(0).GetChild(0).GetChild(2).GetComponent<FlintWeapon>());
                 }
+
+                if (inventory.GetItem(0).ID == Weapon.stick && inventory.GetItem(1).ID == Weapon.stone)
+                {
+                    inventory.ClearSlot(0);
+                    inventory.ClearSlot(1);
+                    inventory.AddItem(gameObject.transform.GetChild(0).GetChild(0).GetChild(3).GetComponent<SlingshotWeapon>());
+                }
             }
         }
     }

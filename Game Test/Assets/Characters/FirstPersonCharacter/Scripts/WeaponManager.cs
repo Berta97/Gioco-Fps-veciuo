@@ -64,8 +64,16 @@ namespace Player.Weapon
                         if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
+                    case (Weapon.slingshot):
+                        item = weaponHolder.transform.GetChild(3).gameObject;
+                        weapon = item.GetComponent<SlingshotWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
+                        break;
                     case (Weapon.spear):
                         break;
+                   
                     default: break;
                 }
             }
@@ -127,8 +135,14 @@ namespace Player.Weapon
                     weap = weaponHolder.transform.GetChild(2).gameObject;
                     currentAmmo = weap.GetComponent<FlintWeapon>().munitions;
                     break;
+                case (Weapon.slingshot):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 3);
+                    weap = weaponHolder.transform.GetChild(3).gameObject;
+                    currentAmmo = weap.GetComponent<SlingshotWeapon>().munitions;
+                    break;
                 case (Weapon.spear):
                     break;
+               
                 default: break;
             }
         }
@@ -151,9 +165,14 @@ namespace Player.Weapon
                     photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 2);
                     currentWeapon = Weapon.empty;
                     break;
+                case (Weapon.slingshot):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 3);
+                    currentWeapon = Weapon.empty;
+                    break;
                 case (Weapon.spear):
                     currentWeapon = Weapon.empty;
                     break;
+               
                 default: break;
             }
         }

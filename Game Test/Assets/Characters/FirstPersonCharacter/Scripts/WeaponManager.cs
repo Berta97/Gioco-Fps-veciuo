@@ -4,7 +4,7 @@ using Player.Inventory;
 
 namespace Player.Weapon
 {
-    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick };
+    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick, wall };
 
     public interface IShoot
     {
@@ -92,6 +92,13 @@ namespace Player.Weapon
                         if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
+                    case (Weapon.wall):
+                        item = weaponHolder.transform.GetChild(7).gameObject;
+                        weapon = item.GetComponent<WallWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
+                        break;
 
                     default: break;
                 }
@@ -174,6 +181,11 @@ namespace Player.Weapon
                     weap = weaponHolder.transform.GetChild(6).gameObject;
                     currentAmmo = weap.GetComponent<BrickWeapon>().munitions;
                     break;
+                case (Weapon.wall):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 7);
+                    weap = weaponHolder.transform.GetChild(7).gameObject;
+                    currentAmmo = weap.GetComponent<WallWeapon>().munitions;
+                    break;
 
 
                 default: break;
@@ -212,6 +224,10 @@ namespace Player.Weapon
                     break;
                 case (Weapon.brick):
                     photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 6);
+                    currentWeapon = Weapon.empty;
+                    break;
+                case (Weapon.wall):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 7);
                     currentWeapon = Weapon.empty;
                     break;
 

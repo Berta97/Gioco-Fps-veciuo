@@ -4,7 +4,7 @@ using Player.Inventory;
 
 namespace Player.Weapon
 {
-    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang };
+    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick };
 
     public interface IShoot
     {
@@ -81,6 +81,13 @@ namespace Player.Weapon
                     case (Weapon.boomerang):
                         item = weaponHolder.transform.GetChild(5).gameObject;
                         weapon = item.GetComponent<BoomerangWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
+                        break;
+                    case (Weapon.brick):
+                        item = weaponHolder.transform.GetChild(6).gameObject;
+                        weapon = item.GetComponent<BrickWeapon>();
                         weapon.Shoot();
                         if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
@@ -162,6 +169,11 @@ namespace Player.Weapon
                     weap = weaponHolder.transform.GetChild(5).gameObject;
                     currentAmmo = weap.GetComponent<BoomerangWeapon>().munitions;
                     break;
+                case (Weapon.brick):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 6);
+                    weap = weaponHolder.transform.GetChild(6).gameObject;
+                    currentAmmo = weap.GetComponent<BrickWeapon>().munitions;
+                    break;
 
 
                 default: break;
@@ -196,6 +208,10 @@ namespace Player.Weapon
                     break;
                 case (Weapon.boomerang):
                     photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 5);
+                    currentWeapon = Weapon.empty;
+                    break;
+                case (Weapon.brick):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 6);
                     currentWeapon = Weapon.empty;
                     break;
 

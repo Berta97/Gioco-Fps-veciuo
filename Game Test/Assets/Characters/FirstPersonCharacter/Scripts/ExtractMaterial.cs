@@ -123,6 +123,11 @@ public class ExtractMaterial : Photon.MonoBehaviour
             newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<StickWeapon>();
         }
 
+        if (itemBeingPickup.CompareTo("Mattoni") == 0)
+        {
+            newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(6).GetComponent<BrickWeapon>();
+        }
+
         inventory.AddItem(newItem);
     }
 

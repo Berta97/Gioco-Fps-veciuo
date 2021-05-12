@@ -128,6 +128,12 @@ public class ExtractMaterial : Photon.MonoBehaviour
             newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(6).GetComponent<BrickWeapon>();
         }
 
+        if (itemBeingPickup.CompareTo("Metallo") == 0)
+        {
+            newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(8).GetComponent<MetalWeapon>();
+        }
+
+
         inventory.AddItem(newItem);
     }
 

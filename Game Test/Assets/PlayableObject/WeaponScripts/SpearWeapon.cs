@@ -1,18 +1,43 @@
-﻿using System.Collections;
+﻿using Player.Weapon;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.CompilerServices;
 
-public class SpearWeapon : MonoBehaviour
+public class SpearWeapon : Item, IShoot
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void Start()
     {
-        
+        waponSound = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public override Weapon ID
     {
-        
+        get
+        {
+            return Weapon.spear;
+        }
+    }
+
+    public override Sprite Image
+    {
+        get
+        {
+            return _image;
+        }
+    }
+
+    public void Shoot()
+    {
+        waponSound.Play();
+        photonView.RPC("InstantiateBullet", PhotonTargets.AllBuffered);
+    }
+
+
+    [PunRPC]
+    void InstantiateBullet()
+    {
+        Instantiate(Resources.Load("Prefabs/Bullets/SpearBullet"), transform.position, transform.rotation);
     }
 }

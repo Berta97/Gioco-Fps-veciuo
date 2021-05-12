@@ -72,6 +72,11 @@ namespace Player.Weapon
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
                     case (Weapon.spear):
+                        item = weaponHolder.transform.GetChild(4).gameObject;
+                        weapon = item.GetComponent<SpearWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
                    
                     default: break;
@@ -141,7 +146,11 @@ namespace Player.Weapon
                     currentAmmo = weap.GetComponent<SlingshotWeapon>().munitions;
                     break;
                 case (Weapon.spear):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 4);
+                    weap = weaponHolder.transform.GetChild(4).gameObject;
+                    currentAmmo = weap.GetComponent<SpearWeapon>().munitions;
                     break;
+                  
                
                 default: break;
             }
@@ -170,9 +179,10 @@ namespace Player.Weapon
                     currentWeapon = Weapon.empty;
                     break;
                 case (Weapon.spear):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 4);
                     currentWeapon = Weapon.empty;
                     break;
-               
+
                 default: break;
             }
         }

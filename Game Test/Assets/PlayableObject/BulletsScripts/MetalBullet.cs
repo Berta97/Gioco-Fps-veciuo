@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class MetalBullet : BasicBullet
 {
+    private float timePassed = 0;
     // Update is called once per frame
     void Update()
     {
-        transform.position -= transform.forward * Time.deltaTime * bulletSpeed;
+        timePassed += Time.deltaTime;
+        if (timePassed < lifeTime)
+        {
+            transform.position -= transform.forward * Time.deltaTime * bulletSpeed;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void OnCollisionEnter(Collision collision)

@@ -39,7 +39,8 @@ public class PlayerDamage : Photon.MonoBehaviour
                 }
                 else
                 {
-                    GetComponent<Rigidbody>().isKinematic = false;
+                    GetComponent<Animator>().SetBool("IsDeath", true);
+
                 }
             }
             healthText.text = currentHealth.ToString();

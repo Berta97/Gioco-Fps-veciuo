@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class WallBullet : BasicBullet
 {
+    private int hit = 0;
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -12,12 +15,17 @@ public class WallBullet : BasicBullet
 
     void OnCollisionEnter(Collision collision)
     {
+        if (hit == 3)
+        {
+            Destroy(gameObject);
+        }
+
         if(collision.collider.tag == "Player" && PhotonNetwork.isMasterClient)
         {
             Debug.Log("COLPITOOOOO!!!");
             collision.collider.GetComponent<PlayerDamage>().UpdateDamage(damage);
         }
-        
-        Destroy(gameObject);
+
+        hit += 1;
     }
 }

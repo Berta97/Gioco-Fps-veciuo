@@ -4,9 +4,21 @@ using UnityEngine;
 
 public class BoomerangBullet : BasicBullet
 {
+    private float reversetime = 1f;
+    private float currenttime = 0f;
+
     // Update is called once per frame
     void Update()
     {
+        currenttime += Time.deltaTime;
+
+        if(currenttime > reversetime)
+        {
+            bulletSpeed *= -1.1f;
+        }
+
+      
+
         transform.position -= transform.forward * Time.deltaTime * bulletSpeed;
     }
 

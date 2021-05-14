@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerDamage : Photon.MonoBehaviour
 {
+    private float ragdoltime = 4f;
+    private float currenttime = 0f;
+
     [SerializeField] public int playerHealth;
 
     private Text healthText;
@@ -21,13 +24,23 @@ public class PlayerDamage : Photon.MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         if (photonView.isMine)
         {
             if (currentHealth <= 0)
             {
-                currentHealth = 0;
-                NetworkManager.netManager.PlayerIsDead();
-                PhotonNetwork.Destroy(gameObject);
+                currenttime += Time.deltaTime;
+                if(currenttime > ragdoltime)
+                {
+                    currentHealth = 0;
+                    NetworkManager.netManager.PlayerIsDead();
+                    PhotonNetwork.Destroy(gameObject);
+                }
+                else
+                {
+                    GetComponent<Rigidbody>().isKinematic = false;
+                }
             }
             healthText.text = currentHealth.ToString();
         }

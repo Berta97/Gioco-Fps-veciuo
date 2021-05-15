@@ -18671,6 +18671,15 @@ MonoBehaviour:
   - {fileID: 1728486873}
   - {fileID: 246903046}
   - {fileID: 895595457}
+  - {fileID: 1688871556}
+  - {fileID: 888596028}
+  - {fileID: 484647389}
+  - {fileID: 1164720020}
+  - {fileID: 1798161998}
+  - {fileID: 1322070385}
+  - {fileID: 1901821942}
+  - {fileID: 2036219959}
+  - {fileID: 1214485807}
   respawnText: {fileID: 756392113}
   map: {fileID: 1803391342}
   spawnDelay: 3

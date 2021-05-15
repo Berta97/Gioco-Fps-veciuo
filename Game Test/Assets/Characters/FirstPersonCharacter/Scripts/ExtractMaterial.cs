@@ -14,7 +14,7 @@ public class ExtractMaterial : Photon.MonoBehaviour
     public LayerMask itemLayer;
 
     [SerializeField]
-    private float pickupTime = 1f;
+    private float pickupTime = 2f;
 
     [SerializeField]
     public Transform messagePanel;

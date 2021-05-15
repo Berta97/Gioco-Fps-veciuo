@@ -28,6 +28,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+        [SerializeField] private AudioClip[] HitSound;
 
         [SerializeField] public int selectedcharacter = 0;
         [SerializeField] private float crunch;
@@ -275,6 +276,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+
+            if (hit.collider.tag == "bullet")
+            {
+                int n = Random.Range(0, HitSound.Length);
+                m_AudioSource.clip = HitSound[n];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                
+            }
         }
     }
 }

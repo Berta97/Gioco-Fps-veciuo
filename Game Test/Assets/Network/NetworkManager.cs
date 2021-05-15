@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Security.Cryptography;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,7 +13,7 @@ public class NetworkManager : Photon.MonoBehaviour
     public static NetworkManager netManager;
 
     [SerializeField]
-    public Transform spawnPoint;
+    public Transform[] spawnPoint;
     [SerializeField]
     public Text respawnText;
     [SerializeField]
@@ -81,7 +82,8 @@ public class NetworkManager : Photon.MonoBehaviour
 
     void RespawnPlayer()
     {
-        GameObject player = PhotonNetwork.Instantiate("Player", spawnPoint.position, spawnPoint.rotation,0);
+        Transform pos = spawnPoint[UnityEngine.Random.Range(0, spawnPoint.Length)];
+        GameObject player = PhotonNetwork.Instantiate("Player", pos.position, pos.rotation,0);
         SkinManager sm = player.GetComponent(typeof(SkinManager)) as SkinManager;
         sm.SetSkin();
         cameraIntro.gameObject.SetActive(false);

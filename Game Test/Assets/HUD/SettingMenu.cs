@@ -29,15 +29,13 @@ public class SettingMenu : MonoBehaviour
             if (resolutions[i].width == Screen.currentResolution.width &&
                 resolutions[i].height == Screen.currentResolution.height)
             {
-                currentResolutionIndex = 1;
+                currentResolutionIndex = i;
             }
         }
 
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
-
-
     }
 
     public void SetResolution (int resolutionIndex)

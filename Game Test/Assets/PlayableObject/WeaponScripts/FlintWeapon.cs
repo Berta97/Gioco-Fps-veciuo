@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.CompilerServices;
 
 public class FlintWeapon : Item, IShoot
 {
@@ -9,11 +10,6 @@ public class FlintWeapon : Item, IShoot
     public void Start()
     {
         waponSound = GetComponent<AudioSource>();
-    }
-    public void Shoot()
-    {
-        Debug.Log("TAGLIO TUTTO!!");
-        waponSound.Play();
     }
 
     public override Weapon ID
@@ -30,5 +26,18 @@ public class FlintWeapon : Item, IShoot
         {
             return _image;
         }
+    }
+
+    public void Shoot()
+    {
+        waponSound.Play();
+        photonView.RPC("InstantiateBullet", PhotonTargets.AllBuffered);
+    }
+
+
+    [PunRPC]
+    void InstantiateBullet()
+    {
+        Instantiate(Resources.Load("Prefabs/Bullets/FlintBullet"), transform.position, transform.rotation);
     }
 }

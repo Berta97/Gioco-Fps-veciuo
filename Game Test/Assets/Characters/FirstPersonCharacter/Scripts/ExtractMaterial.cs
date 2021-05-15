@@ -132,6 +132,10 @@ public class ExtractMaterial : Photon.MonoBehaviour
         {
             newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(8).GetComponent<MetalWeapon>();
         }
+        if (itemBeingPickup.CompareTo("Vetro") == 0)
+        {
+            newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(9).GetComponent<GlassWeapon>();
+        }
 
 
         inventory.AddItem(newItem);

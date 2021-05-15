@@ -23,7 +23,11 @@ public class MetalBullet : BasicBullet
     {
         if(collision.collider.tag == "Player" && PhotonNetwork.isMasterClient)
         {
-            Debug.Log("COLPITOOOOO!!!");
+            Vector3 impulse = Vector3.zero;
+            impulse = collision.transform.position;
+            impulse.y *= 0.1f * collision.relativeVelocity.y;
+            impulse.z *= 0.1f * collision.relativeVelocity.z;
+            collision.transform.position = impulse;
             collision.collider.GetComponent<PlayerDamage>().UpdateDamage(damage);
         }
         

@@ -9,6 +9,7 @@ public class PlayerDamage : Photon.MonoBehaviour
     private float currenttime = 0f;
 
     [SerializeField] public int playerHealth;
+    [SerializeField] public Animator[] modelAnimators ;
 
     private Text healthText;
 
@@ -39,7 +40,8 @@ public class PlayerDamage : Photon.MonoBehaviour
                 }
                 else
                 {
-                    GetComponent<Animator>().SetBool("IsDeath", true);
+                    foreach(Animator a in modelAnimators)
+                        a.SetBool("IsDeath", true);
 
                 }
             }

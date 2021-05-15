@@ -30,6 +30,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
         [SerializeField] public int selectedcharacter = 0;
+        [SerializeField] private float crunch;
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -71,12 +72,28 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
 
+            if (Input.GetKey(KeyCode.LeftControl))
+            {
+                Vector3 pos = m_Camera.transform.position;
+                pos.y -= crunch;
+                m_Camera.transform.position = pos;
+            }
+
+            if (Input.GetKeyUp(KeyCode.LeftControl))
+            {
+                Vector3 pos = m_Camera.transform.position;
+                pos.y += crunch;
+                m_Camera.transform.position = pos;
+            }
+
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
             {
                 StartCoroutine(m_JumpBob.DoBobCycle());
                 PlayLandingSound();
                 m_MoveDir.y = 0f;
                 m_Jumping = false;
+
+           
             }
             if (!m_CharacterController.isGrounded && !m_Jumping && m_PreviouslyGrounded)
             {

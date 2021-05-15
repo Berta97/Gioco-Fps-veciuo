@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerDamage : Photon.MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerDamage : Photon.MonoBehaviour
 
     [SerializeField] public int playerHealth;
     [SerializeField] public Animator[] modelAnimators ;
+    [SerializeField] public Camera cam;
 
     private Text healthText;
 
@@ -32,7 +34,9 @@ public class PlayerDamage : Photon.MonoBehaviour
             if (currentHealth <= 0)
             {
                 currenttime += Time.deltaTime;
-                if(currenttime > ragdoltime)
+                GetComponent<FirstPersonController>().enabled = false;
+                GetComponent<ExtractMaterial>().enabled = false;
+                if (currenttime > ragdoltime)
                 {
                     currentHealth = 0;
                     NetworkManager.netManager.PlayerIsDead();
@@ -40,9 +44,17 @@ public class PlayerDamage : Photon.MonoBehaviour
                 }
                 else
                 {
-                    foreach(Animator a in modelAnimators)
-                        a.SetBool("IsDeath", true);
+                    currentHealth = 0;
 
+                    Vector3 pos = cam.transform.position;
+                    Quaternion q = cam.transform.rotation;
+                    q.eulerAngles = new Vector3(90, 0, 0);
+                    pos.y += 0.5f;
+                    cam.transform.position = pos;
+                    cam.transform.rotation = q;
+
+                    foreach (Animator a in modelAnimators)
+                        a.SetBool("IsDeath", true);
                 }
             }
             healthText.text = currentHealth.ToString();

@@ -4,7 +4,7 @@ using Player.Inventory;
 
 namespace Player.Weapon
 {
-    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick, wall, metal, glass };
+    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick, wall, metal, glass, light };
 
     public interface IShoot
     {
@@ -113,6 +113,13 @@ namespace Player.Weapon
                         if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
+                    case (Weapon.light):
+                        item = weaponHolder.transform.GetChild(10).gameObject;
+                        weapon = item.GetComponent<LightWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
+                        break;
 
                     default: break;
                 }
@@ -210,6 +217,11 @@ namespace Player.Weapon
                     weap = weaponHolder.transform.GetChild(9).gameObject;
                     currentAmmo = weap.GetComponent<GlassWeapon>().munitions;
                     break;
+                case (Weapon.light):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 10);
+                    weap = weaponHolder.transform.GetChild(10).gameObject;
+                    currentAmmo = weap.GetComponent<LightWeapon>().munitions;
+                    break;
 
 
                 default: break;
@@ -260,6 +272,10 @@ namespace Player.Weapon
                     break;
                 case (Weapon.glass):
                     photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 9);
+                    currentWeapon = Weapon.empty;
+                    break;
+                case (Weapon.light):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 10);
                     currentWeapon = Weapon.empty;
                     break;
 

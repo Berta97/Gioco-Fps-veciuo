@@ -140,6 +140,10 @@ public class ExtractMaterial : Photon.MonoBehaviour
         {
             newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(10).GetComponent<LightWeapon>();
         }
+        if (itemBeingPickup.CompareTo("Fuoco") == 0)
+        {
+            newItem = gameObject.transform.GetChild(0).GetChild(0).GetChild(11).GetComponent<FireWeapon>();
+        }
 
 
         inventory.AddItem(newItem);

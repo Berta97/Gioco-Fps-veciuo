@@ -4,7 +4,7 @@ using Player.Inventory;
 
 namespace Player.Weapon
 {
-    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick, wall, metal, glass, light };
+    public enum Weapon { empty, stone, stick, flint, spear, slingshot, boomerang, brick, wall, metal, glass, light, fire };
 
     public interface IShoot
     {
@@ -120,6 +120,13 @@ namespace Player.Weapon
                         if (currentAmmo <= 0)
                             weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
                         break;
+                    case (Weapon.fire):
+                        item = weaponHolder.transform.GetChild(11).gameObject;
+                        weapon = item.GetComponent<FireWeapon>();
+                        weapon.Shoot();
+                        if (currentAmmo <= 0)
+                            weaponPanel.RemoveItem(item.GetComponent<IInventoryItem>());
+                        break;
 
                     default: break;
                 }
@@ -222,6 +229,11 @@ namespace Player.Weapon
                     weap = weaponHolder.transform.GetChild(10).gameObject;
                     currentAmmo = weap.GetComponent<LightWeapon>().munitions;
                     break;
+                case (Weapon.fire):
+                    photonView.RPC("EnablePlayerWeapon", PhotonTargets.AllBuffered, 11);
+                    weap = weaponHolder.transform.GetChild(11).gameObject;
+                    currentAmmo = weap.GetComponent<FireWeapon>().munitions;
+                    break;
 
 
                 default: break;
@@ -276,6 +288,10 @@ namespace Player.Weapon
                     break;
                 case (Weapon.light):
                     photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 10);
+                    currentWeapon = Weapon.empty;
+                    break;
+                case (Weapon.fire):
+                    photonView.RPC("DisablePlayerWeapon", PhotonTargets.AllBuffered, 11);
                     currentWeapon = Weapon.empty;
                     break;
 
